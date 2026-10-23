@@ -1,24 +1,10 @@
-gametitle=Burnout 3: Takedown [SLUS-21050] (U)
-comment=Crash your car on demand by pressing SELECT
-author=Nehalem
-
-// jump to stub
-patch=0,EE,201BD1E4,extended,0C02CC17
-patch=0,EE,201BD1E8,extended,00000000
-patch=0,EE,201BD1EC,extended,104000E3
-
-// stub
-patch=1,EE,200B305C,extended,92424582
-patch=1,EE,200B3060,extended,1440000A
-patch=1,EE,200B3064,extended,00000000
-patch=1,EE,200B3068,extended,3C080058
-patch=1,EE,200B306C,extended,9108BD00
-patch=1,EE,200B3070,extended,1500000B
-patch=1,EE,200B3074,extended,00000000
-patch=1,EE,200B3078,extended,3C02004F
-patch=1,EE,200B307C,extended,9042536F
-patch=1,EE,200B3080,extended,10400002
-patch=1,EE,200B3084,extended,00000000
-patch=1,EE,200B3088,extended,27FF0138
-patch=1,EE,200B308C,extended,03E00008
-patch=1,EE,200B3090,extended,00000000
+reypajin Burnout 3: Takedown [SLUS-21050] (U)
+Realistic Damage Mode
+patch=1,EE,200B3004,extended,3C08000B
+patch=1,EE,200B3008,extended,25083000
+patch=1,EE,200B300C,extended,C5000000
+patch=1,EE,200B3010,extended,03E00008
+patch=1,EE,200B3014,extended,00000000
+patch=1,EE,203DE2F0,extended,0C02CC01
+patch=1,EE,203DE434,extended,0C02CC01
+patch=1,EE,200B3000,extended,42F00000
